@@ -1,0 +1,13 @@
+[package]
+name = "apollo_client_cli"
+version = "0.1.0"
+authors = ["TAC Mod Team <info@theseus-aegis.com>"]
+edition = "2018"
+
+[lib]
+name = "apollo_client"
+crate-type = ["cdylib"]
+
+[dependencies]
+arma-rs = { git = "https://github.com/synixebrett/arma-rs", rev = "4f0be98" }
+reqwest = { version = "0.10", features = ["blocking"] }
