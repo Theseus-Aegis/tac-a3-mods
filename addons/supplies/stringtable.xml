@@ -10,5 +10,8 @@
         <Key ID="STR_TAC_Supplies_RemoveTraits">
             <English>Unassign Trait</English>
         </Key>
+        <Key ID="STR_TAC_Supplies_OpenLootbox">
+            <English>Open Lootbox</English>
+        </Key>
     </Package>
 </Project>
